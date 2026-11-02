@@ -115,3 +115,7 @@ The protocol is documented in the BeurerSanitas driver of
 [openScale](https://github.com/oliexdev/openScale) (GPLv3). This integration
 is an independent Python implementation, checked against frames captured
 from a real BF700.
+
+## License
+
+MIT, see [LICENSE](LICENSE).

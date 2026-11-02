@@ -1,0 +1,39 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "user": {
+        "description": "Choose the scale to set up. If it is not listed, step on it to wake it up and try again.",
+        "data": { "address": "Scale" }
+      },
+      "bluetooth_confirm": {
+        "description": "Set up {name}? The scale sleeps most of the time; values update shortly after each weigh-in."
+      }
+    },
+    "abort": {
+      "already_configured": "This scale is already configured.",
+      "no_devices_found": "No Beurer BF700 found. Step on the scale to wake it up and try again.",
+      "not_supported": "This device is not a supported Beurer scale."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "weight": { "name": "Weight" },
+      "body_fat": { "name": "Body fat" },
+      "body_water": { "name": "Body water" },
+      "muscle": { "name": "Muscle" },
+      "bone_mass": { "name": "Bone mass" },
+      "bmi": { "name": "BMI" },
+      "bmr": { "name": "Basal metabolic rate" },
+      "amr": { "name": "Active metabolic rate" },
+      "impedance": { "name": "Impedance" },
+      "measured_at": { "name": "Measured at" },
+      "last_weight": { "name": "Last weight" },
+      "last_impedance": { "name": "Last impedance" },
+      "last_measured_at": { "name": "Last weigh-in" },
+      "user": { "name": "Last user" },
+      "unassigned_count": { "name": "Unassigned weigh-ins" },
+      "last_sync": { "name": "Last sync" }
+    }
+  }
+}

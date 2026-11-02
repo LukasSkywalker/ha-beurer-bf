@@ -1,0 +1,19 @@
+{
+  "domain": "beurer_bf700",
+  "name": "Beurer BF700",
+  "bluetooth": [
+    { "local_name": "Beurer BF700*", "connectable": true },
+    { "local_name": "BEURER BF700*", "connectable": true },
+    { "local_name": "Beurer BF800*", "connectable": true },
+    { "local_name": "BEURER BF800*", "connectable": true }
+  ],
+  "codeowners": ["@LukasSkywalker"],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://github.com/LukasSkywalker/ha-beurer-bf",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/LukasSkywalker/ha-beurer-bf/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

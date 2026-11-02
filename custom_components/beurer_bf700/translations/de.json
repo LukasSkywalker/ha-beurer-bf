@@ -1,0 +1,39 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "user": {
+        "description": "Waage auswählen. Falls sie fehlt: kurz auf die Waage stehen, damit sie aufwacht, und erneut versuchen.",
+        "data": { "address": "Waage" }
+      },
+      "bluetooth_confirm": {
+        "description": "{name} einrichten? Die Waage schläft meistens; die Werte werden kurz nach jeder Messung aktualisiert."
+      }
+    },
+    "abort": {
+      "already_configured": "Diese Waage ist bereits eingerichtet.",
+      "no_devices_found": "Keine Beurer BF700 gefunden. Kurz auf die Waage stehen und erneut versuchen.",
+      "not_supported": "Dieses Gerät ist keine unterstützte Beurer-Waage."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "weight": { "name": "Gewicht" },
+      "body_fat": { "name": "Körperfett" },
+      "body_water": { "name": "Körperwasser" },
+      "muscle": { "name": "Muskelanteil" },
+      "bone_mass": { "name": "Knochenmasse" },
+      "bmi": { "name": "BMI" },
+      "bmr": { "name": "Grundumsatz" },
+      "amr": { "name": "Aktivitätsumsatz" },
+      "impedance": { "name": "Impedanz" },
+      "measured_at": { "name": "Gemessen um" },
+      "last_weight": { "name": "Letztes Gewicht" },
+      "last_impedance": { "name": "Letzte Impedanz" },
+      "last_measured_at": { "name": "Letzte Messung" },
+      "user": { "name": "Letzter Benutzer" },
+      "unassigned_count": { "name": "Nicht zugeordnete Messungen" },
+      "last_sync": { "name": "Letzte Synchronisation" }
+    }
+  }
+}
